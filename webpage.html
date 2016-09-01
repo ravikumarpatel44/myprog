@@ -179,40 +179,7 @@ padding: 20px;
        border-radius: 220px;       
        }
 
-       #fd1{
 
-/*background-color: rgb(34, 114, 65);*/
-width: 200px;
-height: 50px;
-padding-left: 20px;
-float: left;
-position: relative;
-
-}
-
-#fd2{
-
-/*background-color: rgb(34, 114, 65); */
-width: 200px;
-height: 50px; 
-float: left;
-position:relative;
-}
-
-#fd3{
-   
-    /*background-color: rgb(34, 114, 65); */
-    padding-left: 20px;
-    padding-bottom: 30px;
-    width: 400px;
-    
-    
-}
-  #fd4{
-
-    padding-left: 924px;
-    padding-top: 25px;
-  }
 
   .button{
 
@@ -242,7 +209,7 @@ color: blue;
 
     text-decoration: none;
     float: left;
-    width: 150px;
+    width: 100px;
     padding-left: 30px;
     padding-top: 5px;
 
@@ -252,8 +219,8 @@ color: blue;
 
     text-decoration: none;
     float: left;
-    width: 150px;
-    padding-left: 30px;
+    width: 100px;
+    padding-left: 20px;
     padding-top: 5px;
 
   }
@@ -289,8 +256,52 @@ color: blue;
 
   }
 
+#fd1{
+    float: right;
+    width: 300px;
+    height: auto;
+    margin-right: 20px;
+    margin-top: 20px;
+
+}
+#fd2{
+position: relative;
+float: right;
+margin-top: 20px;
+margin-right: 15px;
+height: 20px;
+
+}
+
+#fd3{
+
+position: relative;
+float: right;
+margin-top: 20px;
+margin-right: 10px;
+height: 20px;
+
+}
+#fd4{
+
+  float: left;
+  margin-top: 10px;
+  margin-left:790px; 
+  /*width: 10px;*/
+  height: 10px;
+}
+/*#fd5{
+
+float: left;
+margin-top: 0px;
+margin-left: 850px;
+
+}*/
+
 
   </style>
+
+
 
 </head>
 
@@ -304,32 +315,22 @@ color: blue;
 <header id="page_header" >
   <img src="image/logo.png" class="profile_pic" width="160" height="160" alt="profile pic">
 
-  <body>
-
-<div id="fd4">
-
-
-<div id="fd1">
-   
-   <p>UserID &nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="userid" id="userid"   /></p>
-   </div>
-
+<!-- <div id="fd1"> -->
 <div id="fd2">
-   <p>Password &nbsp;<input type="text" name="password" id="password" /></p>
-   </div>
-   
-   <div id="fd3">
+<input type="password" name="pass" placeholder="Password" />
+
+</div>
+<div id="fd3">
+<input type="text" name="username" placeholder="Username" />
+</div>
+<div id="fd4">
+  <input type="submit" name="Login" value="Login">
+ <input type="submit" name="creat" value="Createaccount" />
+</div>
   
-   <button type="submit" value="login" style="background-color: rgb(34, 114, 65)">Login</button>
+<!-- </div> -->
 
 
-
-   <button type="createaccount" value="createaccount" style="background-color: rgb(34, 114, 65)" >CreateAccount</button>
-
-</div>
-
-
-</div>
 
 
 
